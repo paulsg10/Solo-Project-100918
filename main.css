@@ -1,0 +1,234 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #f4f4ef;
+  }
+  
+  
+  .center {
+    text-align: center;
+  }
+  a {
+    color: #636363;
+    text-decoration: none;
+    transition: all 0.5s ease-in;
+  }
+  
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  /* Navigation */
+  
+  
+  .navbar {
+    background: #fff;
+    color: rgb(69, 162, 228);
+    font-size: 32px;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 15px 0 rgba(46, 61, 73, 0.12);
+  }
+  
+  
+  .navbar h2 {
+    margin: 0;
+    font-weight: 200;
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-family: 'Roboto',sans-serif;
+  }
+  
+  
+  /* Memo Styles */
+  .memo-container {
+    background: #fff;
+    padding: 50px;
+    width: 50%;
+    margin: 40px auto;
+    box-shadow: 0 5px 15px 0 rgba(46, 61, 73, 0.12);
+    font-family: 'Roboto',sans-serif;
+  }
+  
+  
+  .memo_heading {
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    color: #636363;
+  }
+  
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .form input {
+    height: 44px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid #dbe2e8;
+    font-size: 14px;
+    border-radius: 2px;
+    color: #636363;
+    box-shadow: 0 2px 2px 0 rgba(46, 60, 73, 0.05);
+    outline: none;
+    width: 80%;
+  }
+  
+  
+  .form textarea {
+    width: 80%;
+    max-width: 80%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    border: 1px solid #dbe2e8;
+    font-size: 14px;
+    border-radius: 2px;
+    color: #636363;
+    font-family: 'Roboto,',sans-serif;
+    box-shadow: 0 2px 2px 0 rgba(46, 60, 73, 0.05);
+    outline: none;
+  }
+  
+  .creation {
+    font-size: 9px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(69, 162, 228);
+    display: block;
+    text-align: right;
+    font-family:'Roboto',sans-serif;
+  }
+  
+  /* All Memos */
+  
+  
+  .all_memo_heading {
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    color: #636363;
+    word-wrap: break-word;
+  }
+
+  .my_memos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .memos_container {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* align-content: center; */
+  }
+
+  .memo {
+    width: 30% ;
+    background: #fff;
+    /* width:60%; */
+    margin: 0 auto;
+    /* padding:30px; */
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 12px 0 rgba(46, 60, 73, 0.05);
+  }
+
+  .button_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+  }
+  
+  
+  .post-button {
+    background: rgb(69, 162, 228);
+    padding: 15px 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    border-radius: 4px;
+    border: none;
+    font-size: 20px;
+  }
+  
+  
+  .memo_title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 41px;
+    color: #636363;
+    word-wrap: break-word;
+  }
+  
+  
+  .memo_message {
+    font-family: 'Roboto,',sans-serif;
+    /* color: white; */
+    font-size: 25px;
+    font-weight: 200;
+    /* background: rgb(69, 162, 228); */
+    line-height: 2.5rem;
+    text-align: center;
+    word-wrap: break-word
+  }
+
+  .memo_button {
+    font-family: 'Roboto,',sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    background: rgb(69, 162, 228);
+    line-height: 2.5rem;
+    text-align: center;
+    word-wrap: break-word;
+    border: 1px solid #dbe2e8;
+    font-size: 14px;
+    border-radius: 2px;
+  }
+  
+  
+  .control-buttons {
+    display: flex;
+  }
+  
+  
+  .delete {
+    background: #ff7777;
+    border: none;
+    text-align: center;
+    font-size:14px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+  }
+  
+  
+  .edit {
+    background: #02b3e4;;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: auto;
+    outline: none;
+    color: #fff;
+  }
